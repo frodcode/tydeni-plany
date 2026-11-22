@@ -11,6 +11,7 @@
         {"subject": "AJ", "topic": "Slovní zásoba – město", "why": "nové téma"}
       ],
       "report": {"html": "prehled-f.html", "pdf": "prehled-f.pdf"},
+      "homework": {"pdf": "f-ukolnicek.pdf", "html": "f-ukolnicek.html", "days": "Ne 22. 11. – So 28. 11."},
       "sheets": [
         {"title": "Matematika", "pdf": "f-procvicovani-m.pdf", "html": "f-procvicovani-m.html"},
         {"title": "Čeština", "pdf": "f-procvicovani-cj.pdf", "html": "f-procvicovani-cj.html"}
@@ -46,6 +47,7 @@
         {"subject": "ČJ", "topic": "Diktát a čtení nahlas", "why": "pravidelný trénink"}
       ],
       "report": {"html": "prehled-b.html", "pdf": "prehled-b.pdf"},
+      "homework": {"pdf": "b-ukolnicek.pdf", "html": "b-ukolnicek.html", "days": "Ne 22. 11. – So 28. 11."},
       "sheets": [
         {"title": "Čeština", "pdf": "b-procvicovani-cj.pdf", "html": "b-procvicovani-cj.html"},
         {"title": "Matematika", "pdf": "b-procvicovani-m.pdf", "html": "b-procvicovani-m.html"}
