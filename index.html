@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#5b4bb7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%97%93%3C/text%3E%3C/svg%3E">
+<title>Týdenní plány</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: linear-gradient(135deg,#8ec5fc,#e0c3fc); min-height: 100vh; color: #222; }
+header { text-align: center; padding: 24px 10px 8px; }
+h1 { margin: 0; font-size: 2.1rem; color: #fff; text-shadow: 2px 2px 0 #5b4bb7; }
+.sub { margin-top: 6px; font-size: 1.1rem; color: #fff; font-weight: bold; }
+.home { display: inline-block; margin-bottom: 6px; color: #fff; text-decoration: none; font-size: .95rem; opacity: .85; }
+.home:hover { opacity: 1; text-decoration: underline; }
+main { max-width: 900px; margin: 12px auto 30px; padding: 0 14px; }
+.jump { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 6px 0 14px; }
+.jump a { background: #fff; color: #5b4bb7; padding: 8px 18px; border-radius: 999px; text-decoration: none; font-weight: bold; box-shadow: 0 3px 0 #5b4bb7; }
+.child { background: #fff; border-radius: 20px; padding: 18px 20px 10px; margin-bottom: 22px; box-shadow: 0 6px 0 #5b4bb7, 0 8px 25px rgba(0,0,0,.15); }
+.child h2 { margin: 0 0 4px; color: #5b4bb7; font-size: 1.7rem; }
+.child .summary { color: #555; margin-bottom: 8px; }
+h3 { margin: 18px 0 8px; color: #5b4bb7; font-size: 1.2rem; border-bottom: 2px solid #ece8fb; padding-bottom: 4px; }
+ul.focus { margin: 0; padding-left: 20px; }
+ul.focus li { margin: 4px 0; }
+.tag { display: inline-block; font-size: .8rem; font-weight: bold; color: #fff; background: #5b4bb7; border-radius: 6px; padding: 1px 7px; margin-right: 6px; }
+.why { color: #666; font-size: .92rem; }
+.btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { display: inline-flex; align-items: center; gap: 6px; background: #f3f0ff; color: #3d2f99; border: 2px solid #d9d2fa; border-radius: 12px; padding: 8px 12px; text-decoration: none; font-weight: 600; }
+.btn:hover { background: #e6e0ff; }
+.btn small { font-weight: normal; color: #777; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px,1fr)); gap: 12px; }
+.tile { position: relative; display: flex; flex-direction: column; gap: 4px; padding: 12px; background: #fafaff; border: 2px solid #d9d2fa; border-radius: 14px; text-decoration: none; color: #3d2f99; }
+.tile:hover { background: #f0ecff; }
+.tile .name { font-weight: bold; }
+.tile .subj { font-size: .85rem; color: #777; }
+.new { position: absolute; top: -9px; right: -6px; background: #2e9e4f; color: #fff; font-size: .75rem; font-weight: bold; border-radius: 8px; padding: 1px 7px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #eee; vertical-align: top; }
+th { color: #5b4bb7; font-size: .9rem; }
+.none { color: #888; font-style: italic; }
+.weeks { display: grid; gap: 14px; }
+.week { display: block; background: #fff; border-radius: 18px; padding: 14px 18px; text-decoration: none; color: #222; box-shadow: 0 5px 0 #5b4bb7, 0 8px 20px rgba(0,0,0,.12); }
+.week:hover { transform: translateY(-2px); }
+.week .t { font-size: 1.3rem; font-weight: bold; color: #5b4bb7; }
+.week .c { margin-top: 4px; color: #555; }
+footer { text-align: center; color: #fff; font-size: .9rem; padding-bottom: 20px; opacity: .85; }
+@media (max-width: 520px) { h1 { font-size: 1.7rem; } .tiles { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<header><h1>🗓️ Týdenní plány</h1><div class="sub">Vyber týden ⭐</div></header>
+<main><div class="weeks"><p>Zatím nic.</p></div></main>
+</body>
+</html>
