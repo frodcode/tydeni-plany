@@ -1,0 +1,60 @@
+{ "week_start": "2026-11-16", "label": "16.–20. 11. 2026", "generated": "22. 11. 2026",
+  "children": [
+    { "code": "F", "grade": 4, "emoji": "🧒",
+      "summary": "Týden ve znamení příprav na čtvrtletní práce, čtení starých pověstí a slovíček k tématu město.",
+      "focus": [
+        {"subject": "M", "topic": "Písemné sčítání a odčítání se zkouškou", "why": "čtvrtletní práce 23. 11."},
+        {"subject": "M", "topic": "Zaokrouhlování na desítky a stovky, počítání zpaměti do 1000", "why": "čtvrtletní práce 23. 11."},
+        {"subject": "M", "topic": "Slovní a logické úlohy", "why": "čtvrtletní práce 23. 11."},
+        {"subject": "M", "topic": "Malá a velká násobilka", "why": "čtvrtletní práce 23. 11."},
+        {"subject": "ČJ", "topic": "Staré pověsti české – čtení s porozuměním", "why": "probírané téma"},
+        {"subject": "AJ", "topic": "Slovní zásoba – město", "why": "nové téma"}
+      ],
+      "report": {"html": "prehled-f.html", "pdf": "prehled-f.pdf"},
+      "sheets": [
+        {"title": "Matematika", "pdf": "f-procvicovani-m.pdf", "html": "f-procvicovani-m.html"},
+        {"title": "Čeština", "pdf": "f-procvicovani-cj.pdf", "html": "f-procvicovani-cj.html"}
+      ],
+      "interactive": [
+        {"title": "Písemné sčítání a odčítání", "subject": "Matematika", "emoji": "✏️", "url": "https://frodcode.github.io/skola/4-rocnik/matematika/pisemne-scitani-odcitani.html", "new": false},
+        {"title": "Zaokrouhlování", "subject": "Matematika", "emoji": "🎯", "url": "https://frodcode.github.io/skola/4-rocnik/matematika/zaokrouhlovani.html", "new": false},
+        {"title": "Zpaměti do 1000", "subject": "Matematika", "emoji": "🧠", "url": "https://frodcode.github.io/skola/4-rocnik/matematika/pametne-do-1000.html", "new": false},
+        {"title": "Násobilka", "subject": "Matematika", "emoji": "✖️", "url": "https://frodcode.github.io/skola/4-rocnik/matematika/nasobilka.html", "new": false},
+        {"title": "Slovní úlohy", "subject": "Matematika", "emoji": "🧮", "url": "https://frodcode.github.io/skola/4-rocnik/matematika/slovni-ulohy.html", "new": false},
+        {"title": "Logické úlohy", "subject": "Matematika", "emoji": "🤔", "url": "https://frodcode.github.io/skola/4-rocnik/matematika/logicke-ulohy.html", "new": false},
+        {"title": "Staré pověsti české", "subject": "Čeština", "emoji": "🏰", "url": "https://frodcode.github.io/skola/4-rocnik/cestina/povesti.html", "new": true},
+        {"title": "Čtení s porozuměním", "subject": "Čeština", "emoji": "📚", "url": "https://frodcode.github.io/skola/4-rocnik/cestina/cteni-s-porozumenim.html", "new": false},
+        {"title": "Vyjmenovaná slova", "subject": "Čeština", "emoji": "📜", "url": "https://frodcode.github.io/skola/4-rocnik/cestina/vyjmenovana-slova.html", "new": false},
+        {"title": "Places – Místa a budovy", "subject": "Angličtina", "emoji": "🏠", "url": "https://frodcode.github.io/skola/4-rocnik/anglictina/mista-a-budovy.html", "new": false}
+      ],
+      "workbooks": [
+        {"topic": "Sčítání a odčítání – písemné", "book": "Hravý početník – 1. díl", "where": "HP1 s. 7"},
+        {"topic": "Sčítání a odčítání – pamětné", "book": "Hravý početník – 1. díl", "where": "HP1 s. 3"},
+        {"topic": "Zaokrouhlování", "book": "Hravý početník – 1. díl", "where": "HP1 s. 2"},
+        {"topic": "Malá násobilka (násobení a dělení)", "book": "Hravý početník – 1. díl", "where": "HP1 s. 5"},
+        {"topic": "Násobení a dělení čísly 10, 100", "book": "Hravý početník – 1. díl", "where": "HP1 s. 10"},
+        {"topic": "Vyjmenovaná slova – opakování všech", "book": "Procvičování pravopisu – český jazyk", "where": "PP s. 5"}
+      ] },
+    { "code": "B", "grade": 2, "emoji": "👧",
+      "summary": "Týden s pravopisem u, ú, ů a i/y po tvrdých a měkkých souhláskách, počítáním do 100 a přípravou na čtvrtletní práce.",
+      "focus": [
+        {"subject": "ČJ", "topic": "Pravopis u, ú, ů", "why": "čtvrtletní práce 23. 11."},
+        {"subject": "ČJ", "topic": "Tvrdé a měkké souhlásky – i/y", "why": "čtvrtletní práce 23. 11., upevnit"},
+        {"subject": "M", "topic": "Sčítání a odčítání do 100 po jednotkách", "why": "čtvrtletní práce 23. 11."},
+        {"subject": "M", "topic": "Závorky a slovní úlohy", "why": "nové téma"},
+        {"subject": "M", "topic": "Odčítání s přechodem přes 10", "why": "procvičit"},
+        {"subject": "ČJ", "topic": "Diktát a čtení nahlas", "why": "pravidelný trénink"}
+      ],
+      "report": {"html": "prehled-b.html", "pdf": "prehled-b.pdf"},
+      "sheets": [
+        {"title": "Čeština", "pdf": "b-procvicovani-cj.pdf", "html": "b-procvicovani-cj.html"},
+        {"title": "Matematika", "pdf": "b-procvicovani-m.pdf", "html": "b-procvicovani-m.html"}
+      ],
+      "interactive": [
+        {"title": "U, Ú, Ů", "subject": "Čeština", "emoji": "🐝", "url": "https://frodcode.github.io/skola/2-rocnik/cestina/u-u-u.html", "new": true},
+        {"title": "Tvrdé a měkké souhlásky", "subject": "Čeština", "emoji": "🧱", "url": "https://frodcode.github.io/skola/2-rocnik/cestina/tvrde-mekke-souhlasky.html", "new": true},
+        {"title": "Hlásky ve slově", "subject": "Čeština", "emoji": "👂", "url": "https://frodcode.github.io/skola/2-rocnik/cestina/hlasky-ve-slove.html", "new": false},
+        {"title": "Počítání do 100", "subject": "Matematika", "emoji": "💯", "url": "https://frodcode.github.io/skola/2-rocnik/matematika/do-100-bez-prechodu.html", "new": false},
+        {"title": "Do 20 s přechodem", "subject": "Matematika", "emoji": "🔟", "url": "https://frodcode.github.io/skola/2-rocnik/matematika/do-20-s-prechodem.html", "new": false}
+      ],
+      "workbooks": [] } ] }

@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="cs"><head><meta charset="utf-8"><title>B – procvičování M (týden 16.–20. 11. 2026)</title><style>
+/* Procvičovací listy – jednotný styl. Neměnit per list; změny dělat jen zde. */
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Open Sans','Noto Sans','DejaVu Sans',sans-serif; font-size: 12.5pt; color: #222; line-height: 1.45; margin: 0; }
+a { color: #1f5fa8; text-decoration: none; }
+
+/* Hlavička */
+h1 { color: #1f5fa8; font-size: 26pt; margin: 0 0 4px; }
+.sub { color: #666; font-size: 10.5pt; margin-bottom: 10px; }
+.parent { background: #fffbea; border-left: 5px solid #e8b900; padding: 8px 12px; font-size: 11pt; margin: 8px 0 12px; }
+
+/* Oddíly */
+h2 { color: #1f5fa8; font-size: 17pt; margin: 18px 0 8px; padding-top: 2px; }
+h2.first { margin-top: 6px; }
+h3 { font-size: 13pt; margin: 14px 0 6px; }
+.tip { background: #f2f8f0; border-left: 4px solid #3a9a3a; padding: 5px 10px; font-size: 10.5pt; margin: 4px 0 8px; }
+.legend { border: 1px solid #bbb; border-radius: 8px; padding: 6px 12px; font-size: 10.5pt; margin: 4px 0 8px; }
+.box { border: 1px solid #bbb; border-radius: 8px; padding: 8px 12px; margin: 6px 0 10px; }
+.box p { margin: 4px 0 10px; line-height: 2.1; }
+.reading { border: 1px solid #bbb; border-radius: 8px; padding: 10px 14px; margin: 6px 0 10px; background: #fafafa; line-height: 1.6; }
+.small { font-size: 10.5pt; color: #444; }
+p.text { margin: 4px 0 8px; }
+
+/* Tabulky */
+table { border-collapse: collapse; width: 100%; margin: 4px 0 10px; }
+th, td { border: 1px solid #bbb; padding: 4px 8px; text-align: left; font-size: 11pt; vertical-align: top; }
+th { background: #f0f0f0; }
+td.tall { height: 70px; }
+td.mid { height: 34px; }
+
+/* Mřížky položek */
+.grid { display: grid; gap: 4px 16px; margin: 2px 0 8px; }
+.grid > div { padding: 3px 0; }
+.c1 { grid-template-columns: 1fr; }
+.c2 { grid-template-columns: repeat(2, 1fr); }
+.c3 { grid-template-columns: repeat(3, 1fr); }
+.c4 { grid-template-columns: repeat(4, 1fr); }
+.c5 { grid-template-columns: repeat(5, 1fr); }
+
+/* Místa k doplnění */
+.b, .bl, .bw { display: inline-block; border-bottom: 1.3px solid #333; height: 1em; }
+.b { min-width: 22px; }
+.bl { min-width: 60px; }
+.bw { min-width: 120px; }
+.line { border-bottom: 1px solid #999; height: 26px; }
+
+/* Otázky, výpočty, slovní úlohy */
+ol.q { padding-left: 22px; margin: 4px 0; }
+ol.q li { margin: 4px 0 8px; }
+.calc { display: grid; gap: 6px 16px; margin: 4px 0 10px; }
+.calc > div { height: 105px; }
+.wp { margin: 8px 0 12px; }
+.wp .l { color: #555; font-size: 11pt; }
+.space { width: 100%; }
+
+/* Řešení */
+.page { break-before: page; page-break-before: always; }
+.sol h1 { font-size: 20pt; }
+.sol h3 { color: #1f5fa8; margin: 12px 0 4px; }
+.sol p { margin: 2px 0; font-size: 10.5pt; }
+
+/* Stránkování: nadpisy a nápovědy nenechávat osamocené, bloky nedělit */
+h2, h3, .tip, .legend, .small { break-after: avoid; page-break-after: avoid; }
+table, .grid, .box, .reading, .wp, ol.q li, .calc, .parent, .sol p, .keep { break-inside: avoid; page-break-inside: avoid; }
+</style></head><body>
+<h1>Procvičování – B · Matematika 🔢</h1>
+<div class="sub">2. ročník · <b>čtvrtletní kontrolní práce z M v pondělí 23. 11. 2026</b> · podle učiva z týdne 16.–20. 11. 2026</div>
+<div class="parent"><b>Pro rodiče:</b> Škola okruhy ke kontrolní práci nezveřejnila, list vychází z učiva: <b>sčítání a odčítání do 100 po jednotkách a po desítkách, závorky, slovní úlohy</b>, navíc krátce <b>odčítání s přechodem přes 10</b>. Dnes stačí Matematika 1 a 3. Řešení jsou na konci.</div>
+<h3>Plán</h3><table><tr><th style="width:32%">Den</th><th>Co procvičit</th></tr><tr><td>Ne 22. 11. (dnes)</td><td>Matematika 1 (do 100), Matematika 3 (závorky) – max. 20 minut</td></tr><tr><td><b>Po 23. 11.</b></td><td><b>Čtvrtletní kontrolní práce z ČJ a M</b></td></tr><tr><td>Út 24. 11.</td><td>Matematika 4 (odčítání s přechodem)</td></tr><tr><td>St 25. 11.</td><td>Matematika 5 (slovní úlohy)</td></tr><tr><td>Čt 26. 11.</td><td>Matematika 6 (logické úlohy)</td></tr><tr><td>Pá 27. 11.</td><td>Matematika 2 (zkouška), opravit chyby</td></tr></table>
+<h2>🔢 Matematika 1 – Sčítání a odčítání do 100</h2>
+<h3>A. Po jednotkách</h3>
+<div class="tip">Počítej jen s jednotkami, desítky zůstanou: 34 + 5 → 4 + 5 = 9 → 39.</div>
+<div class="grid c5"><div>34 + 5 = <span class="b"></span></div><div>62 + 7 = <span class="b"></span></div><div>45 + 3 = <span class="b"></span></div><div>81 + 8 = <span class="b"></span></div><div>57 − 4 = <span class="b"></span></div><div>98 − 6 = <span class="b"></span></div><div>76 − 5 = <span class="b"></span></div><div>29 − 8 = <span class="b"></span></div><div>53 + 6 = <span class="b"></span></div><div>67 − 3 = <span class="b"></span></div></div>
+<h3>B. Po desítkách</h3>
+<div class="grid c3"><div>30 + 40 = <span class="b"></span></div><div>90 − 50 = <span class="b"></span></div><div>50 + 20 = <span class="b"></span></div><div>80 − 30 = <span class="b"></span></div><div>47 + 20 = <span class="b"></span></div><div>85 − 40 = <span class="b"></span></div></div>
+<h2>🔢 Matematika 2 – Počítej a udělej zkoušku</h2>
+<div class="tip">Zkouška: když jsem přičetla, výsledek zase odečtu – musí vyjít číslo ze začátku.</div>
+<div class="calc c2"><div>46 + 3 = <span class="b"></span> &nbsp; zkouška: <span class="b"></span> − 3 = 46</div><div>78 − 5 = <span class="b"></span> &nbsp; zkouška: <span class="b"></span> + 5 = 78</div><div>52 + 7 = <span class="b"></span> &nbsp; zkouška: <span class="b"></span> − 7 = 52</div><div>99 − 4 = <span class="b"></span> &nbsp; zkouška: <span class="b"></span> + 4 = 99</div></div>
+<h2>🔢 Matematika 3 – Závorky</h2>
+<div class="tip">Nejdřív spočítej, co je v závorce.</div>
+<div class="grid c2"><div>(20 + 30) − 10 = <span class="b"></span></div><div>70 − (10 + 20) = <span class="b"></span></div><div>(45 + 3) − 5 = <span class="b"></span></div><div>90 − (30 + 40) = <span class="b"></span></div><div>(60 − 20) + 7 = <span class="b"></span></div><div>15 + (30 + 4) = <span class="b"></span></div></div>
+<h2>🔢 Matematika 4 – Odčítání s přechodem přes 10</h2>
+<div class="tip">13 − 5: nejdřív odečti 3 (to je 10), pak ještě 2 → 8.</div>
+<div class="grid c4"><div>13 − 5 = <span class="b"></span></div><div>16 − 9 = <span class="b"></span></div><div>12 − 7 = <span class="b"></span></div><div>14 − 6 = <span class="b"></span></div><div>11 − 3 = <span class="b"></span></div><div>17 − 8 = <span class="b"></span></div><div>15 − 6 = <span class="b"></span></div><div>18 − 9 = <span class="b"></span></div></div>
+<h2>📖 Matematika 5 – Slovní úlohy</h2>
+<div class="wp"><b>1.</b> V knihovně bylo 46 knih o zvířatech. Paní knihovnice přinesla ještě 3. Kolik knih o zvířatech je teď v knihovně?<div class="l">Výpočet:</div><div class="line"></div><div class="l">Odpověď:</div><div class="line"></div></div>
+<div class="wp"><b>2.</b> Na koncertě sedělo 68 dětí. 6 dětí odešlo dřív. Kolik dětí zůstalo?<div class="l">Výpočet:</div><div class="line"></div><div class="l">Odpověď:</div><div class="line"></div></div>
+<div class="wp"><b>3.</b> Ema měla na mozaiku 35 kamínků. Dostala ještě 20. Kolik kamínků má?<div class="l">Výpočet:</div><div class="line"></div><div class="l">Odpověď:</div><div class="line"></div></div>
+<div class="wp"><b>4.</b> Ota měl 14 kuliček, 6 kuliček prohrál. Kolik mu jich zůstalo?<div class="l">Výpočet:</div><div class="line"></div><div class="l">Odpověď:</div><div class="line"></div></div>
+<h2>🧩 Matematika 6 – Logické úlohy</h2>
+<ol class="q" start="1"><li>Pokračuj v řadě: 52, 54, 56, <span class="b"></span>, <span class="b"></span><div class="line"></div></li><li>Pokračuj v řadě: 90, 80, 70, <span class="b"></span>, <span class="b"></span><div class="line"></div></li><li>Když k mému číslu přičteš 4, dostaneš 30. Jaké je moje číslo?<div class="line"></div></li><li>Jsem číslo mezi 40 a 50 a na místě jednotek mám 7. Kdo jsem?<div class="line"></div></li></ol>
+<h2>💻 Online navíc</h2><p class="small"><b>Školákov</b> (externí web, ne ze školy; volně, bez přihlášení): <a href="https://skolakov.eu/matematika-2-trida">Matematika 2. třída</a><br><b>Školní účet:</b> Umíme to (hrazeno školou), Google Classroom.</p>
+<div class="page"></div><div class="sol"><h1>Řešení (pro rodiče)</h1><h3>Matematika 1</h3><p><b>A.</b> 34 + 5 = 39, 62 + 7 = 69, 45 + 3 = 48, 81 + 8 = 89, 57 − 4 = 53, 98 − 6 = 92, 76 − 5 = 71, 29 − 8 = 21, 53 + 6 = 59, 67 − 3 = 64</p><p><b>B.</b> 30 + 40 = 70, 90 − 50 = 40, 50 + 20 = 70, 80 − 30 = 50, 47 + 20 = 67, 85 − 40 = 45</p><h3>Matematika 2</h3><p>46 + 3 = 49, zkouška 49 − 3 = 46; 78 − 5 = 73, zkouška 73 + 5 = 78; 52 + 7 = 59, zkouška 59 − 7 = 52; 99 − 4 = 95, zkouška 95 + 4 = 99</p><h3>Matematika 3</h3><p>(20 + 30) − 10 = 40, 70 − (10 + 20) = 40, (45 + 3) − 5 = 43, 90 − (30 + 40) = 20, (60 − 20) + 7 = 47, 15 + (30 + 4) = 49</p><h3>Matematika 4</h3><p>13 − 5 = 8, 16 − 9 = 7, 12 − 7 = 5, 14 − 6 = 8, 11 − 3 = 8, 17 − 8 = 9, 15 − 6 = 9, 18 − 9 = 9</p><h3>Matematika 5</h3><p>1. 46 + 3 = 49 – V knihovně je 49 knih o zvířatech.</p><p>2. 68 − 6 = 62 – Zůstalo 62 dětí.</p><p>3. 35 + 20 = 55 – Ema má 55 kamínků.</p><p>4. 14 − 6 = 8 – Otovi zůstalo 8 kuliček.</p><h3>Matematika 6</h3><p>1. 58, 60 (+2)</p><p>2. 60, 50 (−10)</p><p>3. 26 (30 − 4)</p><p>4. 47</p></div>
+</body></html>

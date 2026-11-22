@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="cs"><head><meta charset="utf-8"><title>F – procvičování M (týden 16.–20. 11. 2026)</title><style>
+/* Procvičovací listy – jednotný styl. Neměnit per list; změny dělat jen zde. */
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: 'Open Sans','Noto Sans','DejaVu Sans',sans-serif; font-size: 12.5pt; color: #222; line-height: 1.45; margin: 0; }
+a { color: #1f5fa8; text-decoration: none; }
+
+/* Hlavička */
+h1 { color: #1f5fa8; font-size: 26pt; margin: 0 0 4px; }
+.sub { color: #666; font-size: 10.5pt; margin-bottom: 10px; }
+.parent { background: #fffbea; border-left: 5px solid #e8b900; padding: 8px 12px; font-size: 11pt; margin: 8px 0 12px; }
+
+/* Oddíly */
+h2 { color: #1f5fa8; font-size: 17pt; margin: 18px 0 8px; padding-top: 2px; }
+h2.first { margin-top: 6px; }
+h3 { font-size: 13pt; margin: 14px 0 6px; }
+.tip { background: #f2f8f0; border-left: 4px solid #3a9a3a; padding: 5px 10px; font-size: 10.5pt; margin: 4px 0 8px; }
+.legend { border: 1px solid #bbb; border-radius: 8px; padding: 6px 12px; font-size: 10.5pt; margin: 4px 0 8px; }
+.box { border: 1px solid #bbb; border-radius: 8px; padding: 8px 12px; margin: 6px 0 10px; }
+.box p { margin: 4px 0 10px; line-height: 2.1; }
+.reading { border: 1px solid #bbb; border-radius: 8px; padding: 10px 14px; margin: 6px 0 10px; background: #fafafa; line-height: 1.6; }
+.small { font-size: 10.5pt; color: #444; }
+p.text { margin: 4px 0 8px; }
+
+/* Tabulky */
+table { border-collapse: collapse; width: 100%; margin: 4px 0 10px; }
+th, td { border: 1px solid #bbb; padding: 4px 8px; text-align: left; font-size: 11pt; vertical-align: top; }
+th { background: #f0f0f0; }
+td.tall { height: 70px; }
+td.mid { height: 34px; }
+
+/* Mřížky položek */
+.grid { display: grid; gap: 4px 16px; margin: 2px 0 8px; }
+.grid > div { padding: 3px 0; }
+.c1 { grid-template-columns: 1fr; }
+.c2 { grid-template-columns: repeat(2, 1fr); }
+.c3 { grid-template-columns: repeat(3, 1fr); }
+.c4 { grid-template-columns: repeat(4, 1fr); }
+.c5 { grid-template-columns: repeat(5, 1fr); }
+
+/* Místa k doplnění */
+.b, .bl, .bw { display: inline-block; border-bottom: 1.3px solid #333; height: 1em; }
+.b { min-width: 22px; }
+.bl { min-width: 60px; }
+.bw { min-width: 120px; }
+.line { border-bottom: 1px solid #999; height: 26px; }
+
+/* Otázky, výpočty, slovní úlohy */
+ol.q { padding-left: 22px; margin: 4px 0; }
+ol.q li { margin: 4px 0 8px; }
+.calc { display: grid; gap: 6px 16px; margin: 4px 0 10px; }
+.calc > div { height: 105px; }
+.wp { margin: 8px 0 12px; }
+.wp .l { color: #555; font-size: 11pt; }
+.space { width: 100%; }
+
+/* Řešení */
+.page { break-before: page; page-break-before: always; }
+.sol h1 { font-size: 20pt; }
+.sol h3 { color: #1f5fa8; margin: 12px 0 4px; }
+.sol p { margin: 2px 0; font-size: 10.5pt; }
+
+/* Stránkování: nadpisy a nápovědy nenechávat osamocené, bloky nedělit */
+h2, h3, .tip, .legend, .small { break-after: avoid; page-break-after: avoid; }
+table, .grid, .box, .reading, .wp, ol.q li, .calc, .parent, .sol p, .keep { break-inside: avoid; page-break-inside: avoid; }
+</style></head><body>
+<h1>Procvičování – F · Matematika 🔢</h1>
+<div class="sub">4. ročník · <b>čtvrtletní práce z M v pondělí 23. 11. 2026</b> · podle okruhů k procvičování a učiva z týdne 16.–20. 11. 2026</div>
+<div class="parent"><b>Pro rodiče:</b> Okruhy k čtvrtletní práci: <b>čísla do 1000 – pamětné sčítání a odčítání, písemné sčítání a odčítání, malá a velká násobilka, zaokrouhlování na desítky a stovky, logické a slovní úlohy</b>. Dnes stačí <b>Matematika 2</b> (písemně se zkouškou) a krátce <b>Matematika 3 A</b>. Ostatní části během týdne jako opakování. Stačí 20–30 minut denně. Řešení jsou na konci.</div>
+<h3>Plán</h3><table><tr><th style="width:32%">Den</th><th>Co procvičit</th></tr><tr><td>Ne 22. 11. (dnes)</td><td>Matematika 2 (písemně se zkouškou), Matematika 3 A (násobilka nahlas) – max. 30 minut</td></tr><tr><td><b>Po 23. 11.</b></td><td><b>Čtvrtletní práce z matematiky</b></td></tr><tr><td>Út 24. 11.</td><td>Matematika 1 (zpaměti), Matematika 4 (zaokrouhlování)</td></tr><tr><td>St 25. 11.</td><td>Matematika 5 (logické úlohy)</td></tr><tr><td>Čt 26. 11.</td><td>Matematika 6 (slovní úlohy)</td></tr><tr><td>Pá 27. 11.</td><td>Matematika 3 B–C, opravit chyby</td></tr></table>
+<h2>🔢 Matematika 1 – Počítání zpaměti do 1000</h2>
+<h3>A. Počítej zpaměti</h3>
+<div class="grid c3"><div>540 + 370 = <span class="bl"></span></div><div>920 − 450 = <span class="bl"></span></div><div>260 + 80 = <span class="bl"></span></div><div>703 − 8 = <span class="bl"></span></div><div>1000 − 270 = <span class="bl"></span></div><div>365 + 235 = <span class="bl"></span></div><div>810 − 390 = <span class="bl"></span></div><div>199 + 201 = <span class="bl"></span></div><div>480 + 150 = <span class="bl"></span></div></div>
+<h3>B. Doplň chybějící číslo</h3>
+<div class="grid c3"><div>450 + <span class="bl"></span> = 800</div><div><span class="bl"></span> − 260 = 390</div><div>700 − <span class="bl"></span> = 215</div></div>
+<h2>🔢 Matematika 2 – Písemné sčítání a odčítání</h2>
+<h3>A. Počítej pod sebou a udělej zkoušku</h3>
+<div class="tip">Jednotky pod jednotky, desítky pod desítky, stovky pod stovky. Nezapomeň na přenos. <b>Zkouška odčítání:</b> výsledek + menšitel = menšenec. <b>Zkouška sčítání:</b> sečti v opačném pořadí.</div>
+<div class="calc c3"><div>a) 367 + 458</div><div>b) 594 + 278</div><div>c) 905 − 367</div><div>d) 732 − 459</div><div>e) 248 + 163 + 397</div><div>f) 1000 − 617</div></div>
+<h3>B. Pan Chyba počítal – najdi chybu a oprav</h3>
+<div class="grid c2"><div>438 + 275 = 613 &nbsp; správně: <span class="bl"></span></div><div>702 − 346 = 466 &nbsp; správně: <span class="bl"></span></div></div>
+<h2>🔢 Matematika 3 – Násobilka</h2>
+<h3>A. Malá násobilka</h3>
+<div class="grid c5"><div>7 · 8 = <span class="b"></span></div><div>9 · 4 = <span class="b"></span></div><div>6 · 6 = <span class="b"></span></div><div>8 · 3 = <span class="b"></span></div><div>9 · 9 = <span class="b"></span></div><div>72 : 9 = <span class="b"></span></div><div>54 : 6 = <span class="b"></span></div><div>49 : 7 = <span class="b"></span></div><div>32 : 8 = <span class="b"></span></div><div>45 : 5 = <span class="b"></span></div></div>
+<h3>B. Dělení se zbytkem</h3>
+<div class="tip">Zbytek musí být vždy menší než dělitel.</div>
+<div class="grid c4"><div>31 : 4 = <span class="b"></span> zb. <span class="b"></span></div><div>52 : 7 = <span class="b"></span> zb. <span class="b"></span></div><div>44 : 6 = <span class="b"></span> zb. <span class="b"></span></div><div>23 : 5 = <span class="b"></span> zb. <span class="b"></span></div></div>
+<h3>⭐ C. Velká násobilka a násobení mimo obor</h3>
+<div class="tip">Rozlož si číslo: 17 · 4 = 10 · 4 + 7 · 4.</div>
+<div class="grid c5"><div>14 · 3 = <span class="b"></span></div><div>17 · 4 = <span class="b"></span></div><div>12 · 6 = <span class="b"></span></div><div>18 · 5 = <span class="b"></span></div><div>11 · 9 = <span class="b"></span></div><div>70 · 6 = <span class="b"></span></div><div>300 · 3 = <span class="b"></span></div><div>84 : 4 = <span class="b"></span></div><div>96 : 8 = <span class="b"></span></div><div>75 : 5 = <span class="b"></span></div></div>
+<h2>🔢 Matematika 4 – Zaokrouhlování</h2>
+<div class="tip">Rozhoduje číslice hned za místem, na které zaokrouhluješ: <b>0–4 dolů, 5–9 nahoru</b>.</div>
+<h3>A. Zaokrouhli na desítky</h3>
+<div class="grid c5"><div>347 ≐ <span class="bl"></span></div><div>562 ≐ <span class="bl"></span></div><div>895 ≐ <span class="bl"></span></div><div>704 ≐ <span class="bl"></span></div><div>85 ≐ <span class="bl"></span></div></div>
+<h3>B. Zaokrouhli na stovky</h3>
+<div class="grid c5"><div>347 ≐ <span class="bl"></span></div><div>562 ≐ <span class="bl"></span></div><div>849 ≐ <span class="bl"></span></div><div>950 ≐ <span class="bl"></span></div><div>451 ≐ <span class="bl"></span></div></div>
+<h3>C. Nejdřív odhadni (zaokrouhli na stovky), pak spočítej přesně</h3>
+<table><tr><th>Příklad</th><th>Odhad</th><th>Přesně</th></tr><tr><td class="mid">286 + 412</td><td class="mid"></td><td class="mid"></td></tr><tr><td class="mid">793 − 389</td><td class="mid"></td><td class="mid"></td></tr><tr><td class="mid">512 + 279</td><td class="mid"></td><td class="mid"></td></tr></table>
+<h2>🧩 Matematika 5 – Logické úlohy</h2>
+<ol class="q" start="1"><li>Pokračuj v řadě a napiš pravidlo: 3, 7, 15, 31, <span class="bl"></span>, <span class="bl"></span><div class="line"></div></li><li>Myslím si číslo. Když ho vynásobím 6 a přičtu 8, dostanu 50. Jaké číslo si myslím?<div class="line"></div></li><li>Na dvoře jsou slepice a králíci. Mají dohromady 9 hlav a 26 nohou. Kolik je slepic a kolik králíků?<div class="line"></div></li><li>Eva je vyšší než Ota. Lukáš je nižší než Ota. Kdo je nejvyšší a kdo nejnižší?<div class="line"></div></li></ol>
+<h2>📖 Matematika 6 – Slovní úlohy</h2>
+<div class="wp"><b>1.</b> Děti ze třídy napsaly seniorům 24 dopisů, sousední třída o 9 dopisů víc. Kolik dopisů napsaly obě třídy dohromady?<div class="l">Výpočet:</div><div class="line"></div><div class="l">Odpověď:</div><div class="line"></div></div>
+<div class="wp"><b>2.</b> V knihovně bylo 836 knih. Čtenáři si půjčili 278 knih. Kolik knih zůstalo v knihovně? Udělej zkoušku.<div class="l">Výpočet:</div><div class="line"></div><div class="l">Odpověď:</div><div class="line"></div></div>
+<div class="wp"><b>3.</b> Vstupenka do muzea stojí 45 Kč. Kolik zaplatí 6 dětí? Kolik vrátí pokladní z 500 Kč?<div class="l">Výpočet:</div><div class="line"></div><div class="l">Odpověď:</div><div class="line"></div></div>
+<div class="wp"><b>4.</b> ⭐ Eva má třikrát víc nálepek než Ota. Dohromady mají 48 nálepek. Kolik nálepek má každý?<div class="l">Výpočet:</div><div class="line"></div><div class="l">Odpověď:</div><div class="line"></div></div>
+<h2>💻 Online navíc</h2><p class="small"><b>Školákov</b> (externí web, ne ze školy; volně, bez přihlášení): <a href="https://skolakov.eu/matematika-4-trida">Matematika 4. třída</a> · <a href="https://skolakov.eu/matematika-3-trida">Matematika 3. třída</a><br><b>Školní účet:</b> Umíme to (hrazeno školou), Google Classroom.</p>
+<div class="page"></div><div class="sol"><h1>Řešení (pro rodiče)</h1><h3>Matematika 1</h3><p><b>A.</b> 540 + 370 = 910, 920 − 450 = 470, 260 + 80 = 340, 703 − 8 = 695, 1000 − 270 = 730, 365 + 235 = 600, 810 − 390 = 420, 199 + 201 = 400, 480 + 150 = 630</p><p><b>B.</b> 450 + <b>350</b> = 800, <b>650</b> − 260 = 390, 700 − <b>485</b> = 215</p><h3>Matematika 2</h3><p><b>A.</b> a) 367 + 458 = 825, b) 594 + 278 = 872, c) 905 − 367 = 538, d) 732 − 459 = 273, e) 248 + 163 + 397 = 808, f) 1000 − 617 = 383</p><p>Zkoušky: 538 + 367 = 905, 273 + 459 = 732, 383 + 617 = 1000.</p><p><b>B.</b> 438 + 275 = <b>713</b> (Pan Chyba měl 613); 702 − 346 = <b>356</b> (Pan Chyba měl 466) (u sčítání zapomněl na přenos do stovek, u odčítání špatně odečetl desítky – pomůže zkouška)</p><h3>Matematika 3</h3><p><b>A.</b> 7 · 8 = 56, 9 · 4 = 36, 6 · 6 = 36, 8 · 3 = 24, 9 · 9 = 81, 72 : 9 = 8, 54 : 6 = 9, 49 : 7 = 7, 32 : 8 = 4, 45 : 5 = 9</p><p><b>B.</b> 31 : 4 = 7 zb. 3, 52 : 7 = 7 zb. 3, 44 : 6 = 7 zb. 2, 23 : 5 = 4 zb. 3</p><p><b>C.</b> 14 · 3 = 42, 17 · 4 = 68, 12 · 6 = 72, 18 · 5 = 90, 11 · 9 = 99, 70 · 6 = 420, 300 · 3 = 900, 84 : 4 = 21, 96 : 8 = 12, 75 : 5 = 15</p><h3>Matematika 4</h3><p><b>A.</b> 347 ≐ 350, 562 ≐ 560, 895 ≐ 900, 704 ≐ 700, 85 ≐ 90 (895 ≐ 900 – přenos do stovek)</p><p><b>B.</b> 347 ≐ 300, 562 ≐ 600, 849 ≐ 800, 950 ≐ 1000, 451 ≐ 500 (950 ≐ 1000)</p><p><b>C.</b> 286 + 412: odhad 300 + 400 = 700, přesně 698; 793 − 389: odhad 800 − 400 = 400, přesně 404; 512 + 279: odhad 500 + 300 = 800, přesně 791</p><h3>Matematika 5</h3><p>1. 63, 127 (pravidlo: krát 2 a přičti 1)</p><p>2. 7 (50 − 8 = 42, 42 : 6 = 7)</p><p>3. 5 slepic a 4 králíci (kdyby byly všechny slepice: 18 nohou, chybí 8 nohou, každý králík má o 2 víc → 4 králíci)</p><p>4. Nejvyšší je Eva, nejnižší Lukáš.</p><h3>Matematika 6</h3><p>1. 24 + 9 = 33, 24 + 33 = 57 – Obě třídy napsaly 57 dopisů.</p><p>2. 836 − 278 = 558, zkouška 558 + 278 = 836 – V knihovně zůstalo 558 knih.</p><p>3. 45 · 6 = 270, 500 − 270 = 230 – Děti zaplatí 270 Kč, pokladní vrátí 230 Kč.</p><p>4. Ota 1 díl, Eva 3 díly, celkem 4 díly: 48 : 4 = 12, 12 · 3 = 36 – Ota má 12 nálepek, Eva 36.</p></div>
+</body></html>
